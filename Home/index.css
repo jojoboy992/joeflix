@@ -1,0 +1,1233 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+header {
+  height: 700px;
+  flex-shrink: 0;
+  box-shadow: 20px 10px 50px 50px black inset;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/ab180a27-b661-44d7-a6d9-940cb32f2f4a/75135978-2971-4132-a13c-70ce5a53b88d/NG-en-20231009-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav img {
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 150px;
+  filter: brightness(115%);
+}
+.sign_up {
+  text-align: end;
+}
+nav button {
+  width: 100px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #c61a02;
+  border: none;
+  margin-top: -90px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+nav h1 {
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+  margin-top: 100px;
+  background: transparent;
+}
+
+nav h2 {
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+nav h3 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.inp_sign {
+  text-align: center;
+}
+
+input {
+  width: 500px;
+  height: 10px;
+  border-radius: 10px;
+  background: rgba(28, 27, 27, 0.825);
+  border: none;
+  padding: 40px;
+  font-size: 30px;
+}
+
+.inp_sign_btn {
+  width: 200px;
+  height: 70px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.divider {
+  background: rgb(23, 23, 23);
+  height: 10px;
+  width: 100%;
+}
+
+.tv {
+  display: flex;
+}
+
+.tv img {
+  width: 620px;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+.tv video {
+  margin-left: -543px;
+  width: 459px;
+  margin-top: -18px;
+}
+
+.tv h1 {
+  color: #ffffff;
+  width: 600px;
+  font-size: 70px;
+  text-align: end;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+.tv p {
+  color: #ffffff;
+  margin-top: 18rem;
+  max-width: 500px;
+  font-size: 30px;
+  margin-left: -32.7rem;
+}
+
+.info-sec .divider {
+  background: rgb(23, 23, 23);
+  height: 10px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.stranger_things {
+  display: flex;
+  justify-content: end;
+  margin-right: 250px;
+}
+
+.stranger_things img {
+  margin-left: 50px;
+}
+
+.gif {
+  margin-top: 350px;
+  margin-left: -500px;
+  background: black;
+  width: 350px;
+  height: 100px;
+  display: flex;
+  border-radius: 15px;
+  border: solid #8e7e7e;
+}
+
+.gif img {
+  height: 70px;
+  margin-left: 250px;
+  margin-top: 15px;
+}
+
+.gif .img {
+  margin-left: -290px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.gif p {
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.gif .p {
+  color: #1212ff;
+  margin-top: 50px;
+  margin-left: -102px;
+}
+
+.stranger_div {
+  justify-content: end;
+}
+
+.stranger_h1 {
+  color: #ffffff;
+  width: 600px;
+  font-size: 50px;
+  margin-left: 250px;
+  margin-top: -300px;
+}
+
+.stranger_p {
+  color: #ffffff;
+  max-width: 500px;
+  font-size: 30px;
+  margin-left: 250px;
+}
+
+.stranger_divider {
+  background: rgb(23, 23, 23);
+  height: 10px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.gadgets {
+  display: flex;
+}
+
+.gadgets img {
+  margin-left: 60px;
+}
+
+.gadgets h1 {
+  color: #ffffff;
+  font-size: 50px;
+  margin-left: 100px;
+  max-width: 550px;
+  margin-top: 90px;
+}
+
+.gadgets p {
+  color: #ffffff;
+  max-width: 500px;
+  font-size: 30px;
+  margin-top: 240px;
+  margin-left: -550px;
+}
+
+.kids {
+  display: flex;
+}
+
+.kids img {
+  width: 45%;
+  margin-left: 40px;
+}
+
+.kids_div {
+  justify-content: end;
+}
+
+.kids_h1 {
+  color: #ffffff;
+  margin-top: 200px;
+  font-size: 50px;
+  max-width: 550px;
+  margin-left: 100px;
+}
+
+.kids_p {
+  color: #ffffff;
+  font-size: 30px;
+  max-width: 500px;
+  margin-left: 100px;
+}
+
+.foot {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.foot h1 {
+  color: white;
+  font-size: 70px;
+}
+.foot button {
+  background: #c61a02;
+  color: #ffffff;
+  width: 200px;
+  height: 70px;
+  border-radius: 50px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  border: none;
+  margin-top: -20px;
+}
+
+@media (min-width:2100px){
+  .tv h1{
+    margin-left: 900px;
+  }
+
+  .gadgets h1{
+    margin-left: 800px;
+  }
+
+  .kids_h1{
+    margin-left: 500px;
+  }
+
+  .kids_p{
+    margin-left: 500px;
+  }
+}
+
+
+@media (max-width: 1500px) {
+  header {
+    max-width: 100%;
+  }
+
+  nav button {
+    margin-right: 100px;
+  }
+
+  .divider {
+    max-width: 100%;
+  }
+
+  .stranger_divider {
+    max-width: 100%;
+  }
+
+  .tv h1 {
+    margin-left: 100px;
+  }
+
+  .gadgets h1 {
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 1410px) {
+  header {
+    max-width: 100%;
+  }
+
+  nav button {
+    margin-right: 100px;
+  }
+
+  .divider {
+    max-width: 100%;
+  }
+
+  .stranger_divider {
+    max-width: 100%;
+  }
+
+  .tv img {
+    margin-left: 30px;
+    width: 550px;
+  }
+
+  .tv h1 {
+    margin-left: 50px;
+  }
+
+  .gadgets img {
+    margin-left: 10px;
+  }
+  .gadgets h1 {
+    margin-left: 40px;
+  }
+
+  .kids img {
+    margin-left: 10px;
+  }
+
+  .kids_h1 {
+    margin-left: 40px;
+  }
+
+  .kids p {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1320px) {
+  header {
+    max-width: 100%;
+  }
+
+  nav button {
+    margin-right: 100px;
+  }
+
+  .divider {
+    max-width: 100%;
+  }
+
+  .stranger_divider {
+    max-width: 100%;
+  }
+
+  .tv img {
+    margin-left: 30px;
+  }
+
+  .tv h1 {
+    margin-left: -10px;
+  }
+
+  .tv video {
+    margin-left: -500px;
+  }
+
+  .stranger_h1 {
+    margin-left: 30px;
+  }
+
+  .stranger_p {
+    margin-left: 30px;
+  }
+
+  .gadgets img {
+    margin-left: 10px;
+    width: 500px;
+  }
+  .gadgets h1 {
+    margin-left: 40px;
+  }
+
+  .kids img {
+    margin-left: 10px;
+    width: 530px;
+  }
+
+  .kids_h1 {
+    margin-left: 40px;
+  }
+
+  .kids p {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  header {
+    max-width: 100%;
+  }
+
+  nav button {
+    margin-right: 100px;
+  }
+
+  .divider {
+    max-width: 100%;
+  }
+
+  .stranger_divider {
+    max-width: 100%;
+  }
+
+  .tv img {
+    margin-left: 30px;
+    width: 440px;
+    height: 390px;
+  }
+
+  .tv h1 {
+    margin-left: -10px;
+  }
+
+  .tv video {
+    margin-left: -410px;
+    width: 380px;
+    margin-top: -50px;
+  }
+
+  .stranger_things .strange {
+    height: 400px;
+  }
+  .stranger_things img {
+    width: 500px;
+    margin-left: -50px;
+  }
+
+  .stranger_things .img {
+    max-width: 60px;
+    margin-left: -20rem;
+  }
+
+  .gif img {
+    margin-left: 18rem;
+    width: 50px;
+  }
+
+  .gif {
+    margin-top: 250px;
+  }
+
+  .stranger_h1 {
+    margin-left: 30px;
+  }
+
+  .stranger_p {
+    margin-left: 30px;
+  }
+
+  .gadgets img {
+    margin-left: 10px;
+    width: 400px;
+  }
+  .gadgets h1 {
+    margin-left: 40px;
+  }
+
+  .kids img {
+    margin-left: 10px;
+    width: 450px;
+    height: 450px;
+  }
+
+  .kids_h1 {
+    margin-left: 40px;
+    margin-top: 150px;
+  }
+
+  .kids p {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1140px) {
+  header {
+    max-width: 100%;
+  }
+
+  nav button {
+    margin-right: 100px;
+  }
+
+  .divider {
+    max-width: 100%;
+  }
+
+  .stranger_divider {
+    max-width: 92%;
+  }
+
+  .tv img {
+    margin-left: 30px;
+    width: 440px;
+    height: 390px;
+  }
+
+  .tv h1 {
+    font-size: 50px;
+    text-align: start;
+    margin-left: 30px;
+  }
+
+  .tv p {
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .tv video {
+    margin-left: -410px;
+    width: 380px;
+    margin-top: -50px;
+  }
+
+  .stranger_things .strange {
+    height: 400px;
+  }
+  .stranger_things img {
+    width: 500px;
+    margin-left: -50px;
+  }
+
+  .stranger_things .img {
+    max-width: 60px;
+    margin-left: -20rem;
+  }
+
+  .gif img {
+    margin-left: 18rem;
+    width: 50px;
+  }
+
+  .gif {
+    margin-top: 250px;
+  }
+
+  .stranger_h1 {
+    margin-left: 30px;
+    font-size: 40px;
+  }
+
+  .stranger_p {
+    margin-left: 30px;
+    font-size: 30px;
+    width: 390px;
+  }
+
+  .gadgets img {
+    margin-left: 10px;
+    width: 400px;
+  }
+  .gadgets h1 {
+    margin-left: 40px;
+    font-size: 40px;
+    width: 470px;
+  }
+
+  .gadgets p {
+    font-size: 30px;
+    width: 370px;
+    margin-left: -450px;
+  }
+
+  .kids img {
+    margin-left: 10px;
+    width: 450px;
+    height: 450px;
+  }
+
+  .kids_h1 {
+    margin-left: 40px;
+    margin-top: 150px;
+    font-size: 40px;
+  }
+
+  .kids p {
+    margin-left: 40px;
+    font-size: 25px;
+    width: 390px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .tv {
+    flex-direction: column;
+  }
+
+  .tv img {
+    margin-left: 200px;
+    width: 620px;
+    height: 490px;
+  }
+
+  .tv video {
+    margin-left: 277px;
+    width: 460px;
+    margin-top: -520px;
+    height: 530px;
+  }
+
+  .tv h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 230px;
+    font-size: 60px;
+  }
+  .tv p {
+    margin-left: 0;
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: 280px;
+    font-size: 30px;
+    width: 600px;
+    margin-bottom: -20px;
+  }
+
+  .stranger_things {
+    flex-direction: column;
+  }
+
+  .stranger_things .strange {
+    margin-left: 150px;
+    width: 700px;
+    height: 560px;
+  }
+
+  .gif {
+    margin-left: 20rem;
+    margin-top: -10rem;
+  }
+
+  .stranger_h1 {
+    margin-top: 100px;
+    margin-left: 15rem;
+  }
+
+  .stranger_p {
+    margin-left: 19rem;
+    width: 450px;
+    margin-bottom: -5rem;
+  }
+
+  .gadgets {
+    flex-direction: column;
+  }
+  .gadgets img {
+    margin-left: 200px;
+    width: 550px;
+  }
+
+  .gadgets h1 {
+    margin-left: 290px;
+    font-size: 45px;
+    width: 600px;
+    margin-top: 20px;
+  }
+
+  .gadgets p {
+    margin-left: 250px;
+    font-size: 35px;
+    width: 550px;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+
+  .kids {
+    flex-direction: column;
+  }
+
+  .kids img {
+    margin-left: 240px;
+    width: 570px;
+  }
+
+  .kids_h1 {
+    margin-left: 240px;
+    font-size: 55px;
+    margin-top: 50px;
+  }
+
+  .kids .kids_p {
+    margin-left: 270px;
+    font-size: 30px;
+    width: 500px;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .tv {
+    flex-direction: column;
+  }
+
+  .tv img {
+    margin-left: 130px;
+    width: 620px;
+    height: 490px;
+  }
+
+  .tv video {
+    margin-left: 277px;
+    width: 460px;
+    margin-top: -520px;
+    height: 530px;
+  }
+
+  .tv h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 60px;
+  }
+  .tv p {
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: 200px;
+    font-size: 30px;
+    width: 600px;
+    margin-bottom: -20px;
+  }
+
+  .stranger_things {
+    flex-direction: column;
+  }
+
+  .stranger_things .strange {
+    margin-left: 70px;
+    width: 700px;
+    height: 560px;
+  }
+
+  .gif {
+    margin-left: 15rem;
+    margin-top: -10rem;
+  }
+
+  .stranger_h1 {
+    margin-top: 100px;
+    margin-left: 10rem;
+  }
+
+  .stranger_p {
+    margin-left: 14rem;
+    width: 450px;
+    margin-bottom: -5rem;
+  }
+
+  .gadgets {
+    flex-direction: column;
+  }
+  .gadgets img {
+    margin-left: 120px;
+    width: 550px;
+  }
+
+  .gadgets h1 {
+    margin-left: 210px;
+    font-size: 45px;
+    width: 600px;
+    margin-top: 20px;
+  }
+
+  .gadgets p {
+    margin-left: 170px;
+    font-size: 35px;
+    width: 550px;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+
+  .kids {
+    flex-direction: column;
+  }
+
+  .kids img {
+    margin-left: 160px;
+    width: 570px;
+  }
+
+  .kids_h1 {
+    margin-left: 160px;
+    font-size: 55px;
+    margin-top: 50px;
+  }
+
+  .kids .kids_p {
+    margin-left: 190px;
+    font-size: 30px;
+    width: 500px;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .tv {
+    flex-direction: column;
+  }
+
+  .tv img {
+    margin-left: 70px;
+    width: 620px;
+    height: 490px;
+  }
+
+  .tv video {
+    margin-left: 150px;
+    width: 460px;
+    margin-top: -520px;
+    height: 530px;
+  }
+
+  .tv h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 60px;
+  }
+  .tv p {
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: 140px;
+    font-size: 30px;
+    width: 600px;
+    margin-bottom: -20px;
+  }
+
+  .stranger_things {
+    flex-direction: column;
+  }
+
+  .stranger_things .strange {
+    margin-left: 10px;
+    width: 700px;
+    height: 560px;
+  }
+
+  .gif {
+    margin-left: 11.5rem;
+    margin-top: -10rem;
+  }
+
+  .stranger_h1 {
+    margin-top: 100px;
+    margin-left: 6.5rem;
+  }
+
+  .stranger_p {
+    margin-left: 10rem;
+    width: 450px;
+    margin-bottom: -5rem;
+  }
+
+  .gadgets {
+    flex-direction: column;
+  }
+  .gadgets img {
+    margin-left: 60px;
+    width: 550px;
+  }
+
+  .gadgets h1 {
+    margin-left: 150px;
+    font-size: 45px;
+    width: 600px;
+    margin-top: 20px;
+  }
+
+  .gadgets p {
+    margin-left: 110px;
+    font-size: 35px;
+    width: 550px;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+
+  .kids {
+    flex-direction: column;
+  }
+
+  .kids img {
+    margin-left: 100px;
+    width: 570px;
+  }
+
+  .kids_h1 {
+    margin-left: 100px;
+    font-size: 55px;
+    margin-top: 50px;
+  }
+
+  .kids .kids_p {
+    margin-left: 130px;
+    font-size: 30px;
+    width: 500px;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+}
+
+@media (max-width: 820px){
+  header h1{
+    margin-top: 40px;
+  }
+
+  .inp_sign_btn{
+    margin-top: 20px;
+    margin-left: 130px;
+  }
+
+  input{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    min-width: 109%;
+    
+  }
+
+  .divider {
+    min-width: 109%;
+  }
+
+  .stranger_divider {
+    min-width: 109%;
+  }
+
+  .tv {
+    flex-direction: column;
+  }
+
+  .tv img {
+    margin-left: 120px;
+    width: 520px;
+    height: 390px;
+  }
+
+  .tv video {
+    margin-left: 185px;
+    width: 400px;
+    margin-top: -390px;
+    height: 390px;
+  }
+
+  .tv h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 60px;
+  }
+  .tv p {
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: 140px;
+    font-size: 30px;
+    width: 600px;
+    margin-bottom: -20px;
+  }
+
+  .stranger_things {
+    flex-direction: column;
+  }
+
+  .stranger_things .strange {
+    margin-left: 10px;
+    width: 700px;
+    height: 560px;
+  }
+
+  .gif {
+    margin-left: 11.5rem;
+    margin-top: -10rem;
+  }
+
+  .stranger_h1 {
+    margin-top: 100px;
+    margin-left: 6.5rem;
+  }
+
+  .stranger_p {
+    margin-left: 10rem;
+    width: 450px;
+    margin-bottom: -5rem;
+  }
+
+  .gadgets {
+    flex-direction: column;
+  }
+  .gadgets img {
+    margin-left: 60px;
+    width: 550px;
+  }
+
+  .gadgets h1 {
+    margin-left: 150px;
+    font-size: 45px;
+    width: 600px;
+    margin-top: 20px;
+  }
+
+  .gadgets p {
+    margin-left: 110px;
+    font-size: 35px;
+    width: 550px;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
+
+  .kids {
+    flex-direction: column;
+  }
+
+  .kids img {
+    margin-left: 100px;
+    width: 570px;
+  }
+}
+
+@media (max-width: 630px) {
+  header {
+    min-width: 120%;
+    
+  }
+
+  .divider {
+    min-width: 120%;
+  }
+
+  .stranger_divider {
+    min-width: 120%;
+  }
+}
+
+@media (max-width: 580px) {
+  header {
+    min-width: 130%;
+    
+  }
+
+  .divider {
+    min-width: 130%;
+  }
+
+  .stranger_divider {
+    min-width: 130%;
+  }
+}
+
+@media (max-width:600px){
+
+.foot h1{
+  margin-left: 150px;
+  font-size: 50px;
+  min-width: 400px;
+}
+
+.foot button{
+  margin-left: 120px;
+}
+
+}
+
+@media (max-width:540px){
+
+  .foot h1{
+    margin-left: 270px;
+    font-size: 50px;
+    min-width: 400px;
+  }
+  
+  .foot button{
+    margin-left: 350px;
+  }
+  
+  }
+
+@media (max-width: 540px) {
+  header {
+    min-width: 170%;
+    
+  }
+
+  .divider {
+    min-width: 170%;
+  }
+
+  .stranger_divider {
+    min-width: 170%;
+  }
+}
+
+@media (max-width:460px){
+
+  .foot h1{
+    margin-left: 180px;
+    font-size: 50px;
+    min-width: 400px;
+  }
+  
+  .foot button{
+    margin-left: 270px;
+  }
+  
+  }
+
+@media (max-width: 470px) {
+  .kids_h1 {
+    margin-left: 150px;
+    font-size: 40px;
+    min-width: 500px;
+    word-wrap: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    min-width: 195%;
+    
+  }
+
+  .divider {
+    min-width: 195%;
+  }
+
+  .stranger_divider {
+    min-width: 195%;
+  }
+}
+
+@media (max-width: 370px) {
+  header {
+    min-width: 200%;
+    
+  }
+
+  .divider {
+    min-width: 200%;
+  }
+
+  .stranger_divider {
+    min-width: 200%;
+  }
+}
+
+@media (max-width: 350px) {
+  header {
+    min-width: 230%;
+    
+  }
+
+  .divider {
+    min-width: 230%;
+  }
+
+  .stranger_divider {
+    min-width: 230%;
+  }
+}
+
+@media (max-width: 290px) {
+  header {
+    min-width: 260%;
+    
+  }
+
+  .divider {
+    min-width: 260%;
+  }
+
+  .stranger_divider {
+    min-width: 260%;
+  }
+}
+
+
+@media (max-width:470px){
+  .kids_h1{
+    margin-left: 150px;
+    font-size: 40px;
+    min-width: 500px;
+    word-wrap: none !important;
+  }
+}
+
+
