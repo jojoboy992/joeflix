@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Movie_Section/index.css">
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    <title>Movie overview - Joeflix</title>
+</head>
+
+<body>
+    
+    <nav>
+        <img src="../logo.png" alt="Joeflix" class="logo">
+        <div class="nav_div">
+            <a href="../Movie_Section/index.html">Home</a>
+            <a href="favourites.html">Favourites</a>
+            <a href="../Movie_genres/genres.html">Genres</a>
+            <img src="../white_menu.png" alt="" class="menu" id="menu" style="display: none;">
+        </div>
+    </nav>
+    
+    <div class="second_nav_div" id="second_nav_div">
+        <a href="">Home</a>
+        <a href="../Favourites/index.html">Favourites</a>
+        <a href="../Movie_genres/index.html">Genres</a>
+
+        <span class="close" id="close">&times;</span>
+    </div>
+
+    <h1 class="preview_title">Preview for:<h1 id="preview-title"></h1></h1>
+
+    <main id="overview-sec">
+
+        <div class="overview-con">
+
+            <img id="overview_img" alt="Image">
+
+
+            <div class="movie-info">
+                <h1 id="overview-title"></h1>
+                <span id="green"></span>
+            </div>
+            <div class="date-div">
+                <h3>Date Released: <span id="released"></span></h3>
+            </div>
+            <div id="overview-text">
+            </div>
+        </div>
+    </main>
+    <div id="favourites">
+        <h1>Add to Favourites</h1>
+        <button id="fav-button">+</button>
+    </div>
+    <script src="index.js"></script>
+    <script src="../Movie_Section/index.js"></script>
+    <script src="../Favourites/index.js"></script>
+
+    <script>
+        const second_nav_div = document.getElementById("second_nav_div")
+        const close_btn = document.getElementById("close")
+        const menu = document.getElementById("menu")
+        
+        menu.addEventListener("click", function(){
+            second_nav_div.style.display = "flex"
+        })
+        
+        close_btn.addEventListener("click", function(){
+            second_nav_div.style.display = "none"
+        })
+            </script>
+</body>
+
+</html>
