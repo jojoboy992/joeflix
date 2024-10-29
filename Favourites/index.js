@@ -15,9 +15,8 @@ function fillPage() {
   data = JSON.parse(localStorage.getItem("favouritesData"));
   fav_main.innerHTML = "";
 
-  if(data.length > 0){
+  if (data.length > 0) {
     for (let i = 0; i < data.length; i++) {
-
       fav_main.innerHTML =
         fav_main.innerHTML +
         ` 
@@ -41,8 +40,8 @@ function fillPage() {
   </div>
   `;
     }
-  }else{
-    fav_main.innerHTML =  `<p style="color: white; text-align:center;">You have no favourites yet</p>`
+  } else {
+    fav_main.innerHTML = `<p style="color: white; text-align:center;">You have no favourites yet</p>`;
   }
 }
 

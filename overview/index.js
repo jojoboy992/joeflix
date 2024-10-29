@@ -3,7 +3,7 @@ let data = JSON.parse(localStorage.getItem("overviewData"));
 const IMG_URL = "https://image.tmdb.org/t/p/w500/";
 
 const overview_img = document.getElementById("overview_img");
-const preview_title = document.getElementById("preview-title")
+const preview_title = document.getElementById("preview-title");
 const overview_text = document.getElementById("overview-text");
 const overview_title = document.getElementById("overview-title");
 const ratings = document.getElementById("green");

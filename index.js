@@ -125,7 +125,7 @@ function showMovies(data) {
 
     movieEl.addEventListener("click", () => {
       localStorage.setItem("overviewData", JSON.stringify(movie));
-      location.href = "../overview/overview.html";
+      location.href = "./overview/overview.html";
     });
   });
 }

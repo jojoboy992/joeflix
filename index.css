@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
@@ -9,8 +10,7 @@ body {
   background: black;
 }
 
-
-nav{
+nav {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -19,24 +19,24 @@ nav{
   padding-top: 20px;
 }
 
-.logo{
+.logo {
   width: 70px;
   height: 70px;
 }
 
-.nav_div{
+.nav_div {
   display: flex;
   justify-content: center;
   column-gap: 20px;
 }
 
-.nav_div a{
+.nav_div a {
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
 }
 
-.second_nav_div{
+.second_nav_div {
   display: none;
   position: fixed;
   /* gap: 40px; */
@@ -51,7 +51,7 @@ nav{
   padding-top: 80px;
 }
 
-.close{
+.close {
   position: absolute;
   right: 0;
   top: 0;
@@ -61,7 +61,7 @@ nav{
   cursor: pointer;
 }
 
-.second_nav_div a{
+.second_nav_div a {
   color: #ffffff;
   font-size: 20px;
   width: 100%;
@@ -73,12 +73,12 @@ nav{
   text-decoration: none;
 }
 
-.form{
+.form {
   display: flex;
   column-gap: 20px;
 }
 
-.search{
+.search {
   border: 1px solid #ccc;
   border-radius: 10px;
   height: 30px;
@@ -86,7 +86,7 @@ nav{
   padding-left: 15px;
 }
 
-.search_btn{
+.search_btn {
   width: 100px;
   height: 30px;
   border: none;
@@ -289,99 +289,94 @@ h1 {
   cursor: pointer;
 }
 
-.preview_title{
+.preview_title {
   font-size: 23px;
   text-align: center;
-
 }
 
-@media(max-width:881px){
- .nav_div a{
+@media (max-width: 881px) {
+  .nav_div a {
     display: none;
   }
 
-  #watch{
+  #watch {
     font-size: 40px !important;
   }
 
-  .menu{
+  .menu {
     display: block !important;
     width: 30px;
     height: 30px;
   }
-
 }
 
-@media(max-width:700px){
-  .search{
+@media (max-width: 700px) {
+  .search {
     width: 220px;
   }
 
-  #watch{
+  #watch {
     font-size: 30px !important;
   }
 }
 
-
-
-@media(max-width:665px){
-  .movie{
+@media (max-width: 665px) {
+  .movie {
     width: 95%;
   }
-
 }
 
-@media(max-width:520px){
-  .logo{
+@media (max-width: 520px) {
+  .logo {
     display: none;
   }
 
-  .nav{
+  .nav {
     padding-left: 10px !important;
   }
 }
 
-@media(max-width:510px){
-  #overview-sec{
+@media (max-width: 510px) {
+  #overview-sec {
     width: 95% !important;
   }
 
-  .overview-con{
+  .overview-con {
     width: 95% !important;
   }
 
-  #overview_img{
+  #overview_img {
     width: 100% !important;
     margin-left: 10px;
   }
 
-  .movie-info{
+  .movie-info {
     width: 95% !important;
   }
 
-  #overview-text{
+  #overview-text {
     width: 100% !important;
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
-@media(max-width:440px){
-  .search_btn{
+@media (max-width: 440px) {
+  .search_btn {
     display: none;
   }
 
-  #watch{
+  #watch {
     font-size: 25px !important;
   }
 }
 
-@media(max-width:400px){
-  #overview-title{
+@media (max-width: 400px) {
+  #overview-title {
     font-size: 25px !important;
   }
 
-  #favourites h1{
+  #favourites h1 {
     font-size: 20px;
   }
 
@@ -391,12 +386,12 @@ h1 {
   }
 }
 
-@media(max-width:335px){
-  #overview-title{
+@media (max-width: 335px) {
+  #overview-title {
     font-size: 20px !important;
   }
 
-  #favourites h1{
+  #favourites h1 {
     font-size: 20px;
   }
 
@@ -406,8 +401,8 @@ h1 {
   }
 }
 
-@media(max-width:300px){
-  .search{
+@media (max-width: 300px) {
+  .search {
     width: 160px !important;
   }
 }
