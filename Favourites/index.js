@@ -41,7 +41,9 @@ function fillPage() {
   `;
     }
   } else {
-    fav_main.innerHTML = `<p style="color: white !important; text-align:center !important;">You have no favourites yet</p>`;
+      if(data.length < 0 || data.length == "" || data.length == null){
+          fav_main.innerHTML = `<p style="color: white !important; text-align:center !important;">You have no favourites yet</p>`;
+      }
   }
 }
 
